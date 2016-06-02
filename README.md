@@ -6,9 +6,9 @@ Simulation of flocking behaviour in birds, using the realistic-looking Boids mod
 <p>
 The Boids simulation follows three core rules:
 
- • Separation: steer to avoid crowding local flockmates
- • Alignment: steer towards the average heading of local flockmates
- • Cohesion: steer to move toward the average position (center of mass) of local flockmates
+* Separation: steer to avoid crowding local flockmates
+* Alignment: steer towards the average heading of local flockmates 
+* Cohesion: steer to move toward the average position (center of mass) of local flockmates
  
  For more information see
  

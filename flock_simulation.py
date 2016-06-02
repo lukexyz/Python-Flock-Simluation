@@ -9,9 +9,9 @@ from numpy.linalg import norm
 width, height = 640, 480
 
 N = 100             # number of birds
-minDist = 15.0      # min dist of approach
-maxRuleVel = 0.5    # max magnitude of velocities calculated by "rules"
-maxVel = 7.0        # max magnitude of final velocity
+minDist = 100.0      # min dist of approach
+maxRuleVel = 0.3    # max magnitude of velocities calculated by "rules"
+maxVel = 3.0        # max magnitude of final velocity
 
 
 class Birds:
@@ -75,7 +75,7 @@ class Birds:
 
     def apply_rules(self):
         # apply rule #1 - Separation
-        D = self.distMatrix < 25.0
+        D = self.distMatrix < 20.0
         vel = self.pos * D.sum(axis=1).reshape(self.N, 1) - D.dot(self.pos)
         self.limit(vel, self.maxRuleVel)
 
