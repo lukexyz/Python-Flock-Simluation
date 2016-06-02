@@ -1,7 +1,7 @@
 # Python-Flock-Simluation
 Simulation of flocking behaviour in birds, using the realistic-looking Boids model (1986).
 
-<img src=https://i.imgur.com/xIvWHCc.gif>
+<img src=https://i.imgur.com/0wifowN.gif>
 
 <p>
 The Boids simulation follows three core rules:
