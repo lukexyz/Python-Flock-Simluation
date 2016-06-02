@@ -9,10 +9,10 @@ The Boids simulation follows three core rules:
 * Separation: steer to avoid crowding local flockmates
 * Alignment: steer towards the average heading of local flockmates 
 * Cohesion: steer to move toward the average position (center of mass) of local flockmates
- 
- For more information see
- 
- https://en.wikipedia.org/wiki/Boids
- 
- http://www.red3d.com/cwr/boids/
+
+For more information see
+
+https://en.wikipedia.org/wiki/Boids
+
+http://www.red3d.com/cwr/boids/
  
